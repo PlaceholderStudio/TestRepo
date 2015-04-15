@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 72af9ceedc1a8824f96be992ee0baec1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: body
+    100004: body bolts
+    100006: bottom bol
+    100008: Cartrage 1
+    100010: Cartrage 2
+    100012: catch
+    100014: Cylinder05
+    100016: front bol0
+    100018: front bolt
+    100020: front sigh
+    100022: ground
+    100024: //RootNode
+    100026: Stock
+    100028: stock bolt
+    100030: Trigger
+    100032: trigger gu
+    400000: Barrel
+    400002: body
+    400004: body bolts
+    400006: bottom bol
+    400008: Cartrage 1
+    400010: Cartrage 2
+    400012: catch
+    400014: Cylinder05
+    400016: front bol0
+    400018: front bolt
+    400020: front sigh
+    400022: ground
+    400024: //RootNode
+    400026: Stock
+    400028: stock bolt
+    400030: Trigger
+    400032: trigger gu
+    2300000: Barrel
+    2300002: body
+    2300004: body bolts
+    2300006: bottom bol
+    2300008: Cartrage 1
+    2300010: Cartrage 2
+    2300012: catch
+    2300014: Cylinder05
+    2300016: front bol0
+    2300018: front bolt
+    2300020: front sigh
+    2300022: ground
+    2300024: Stock
+    2300026: stock bolt
+    2300028: Trigger
+    2300030: trigger gu
+    3300000: Barrel
+    3300002: body
+    3300004: body bolts
+    3300006: bottom bol
+    3300008: Cartrage 1
+    3300010: Cartrage 2
+    3300012: catch
+    3300014: Cylinder05
+    3300016: front bol0
+    3300018: front bolt
+    3300020: front sigh
+    3300022: ground
+    3300024: Stock
+    3300026: stock bolt
+    3300028: Trigger
+    3300030: trigger gu
+    4300000: Barrel
+    4300002: Stock
+    4300004: trigger gu
+    4300006: bottom bol
+    4300008: Trigger
+    4300010: front sigh
+    4300012: ground
+    4300014: Cylinder05
+    4300016: body
+    4300018: stock bolt
+    4300020: body bolts
+    4300022: catch
+    4300024: Cartrage 2
+    4300026: Cartrage 1
+    4300028: front bolt
+    4300030: front bol0
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
