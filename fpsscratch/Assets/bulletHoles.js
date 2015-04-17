@@ -31,6 +31,7 @@ private var bullets : int = 1;
 var myBullets : int = 1;
 var headshots : boolean = false;
 var headshotMulti : float = 2.0;
+private var enemyScript : Enemy;
 function Start(){
 }
 function Update(){
@@ -130,14 +131,17 @@ function SemiAutoFire () {
 			fwd.z += Random.Range(-accuracy, accuracy);
 			if (Physics.Raycast(transform.position, fwd, hit, BRange)){
 				Instantiate(bulletTex[Random.Range(0,3)], hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
-				if (hit.collider.tag == "Headshot" && headshots == true){
-					print ("Nice shot, mate.");
-					hit.transform.SendMessage("Damage", damage * headshotMulti, SendMessageOptions.DontRequireReciever);
-				}
-				if (!hit.collider.tag == "Headshot" || headshots == false){
-					print ("Nice bodyshot and/or miss, NOOB!");
-					hit.transform.SendMessage("Damage", damage, SendMessageOptions.DontRequireReciever);
-				}
+//				if (hit.transform.gameObject.tag == "Headshot" && headshots == true){
+//					print ("Nice shot, mate.");
+//					hit.transform.gameObject.SendMessage("Damage", damage * headshotMulti, SendMessageOptions.DontRequireReciever);
+//					hit.collider.SendMessage("Damage", damage * headshotMulti, SendMessageOptions.DontRequireReciever);
+//				}
+//				}
+//				if (!hit.transform.gameObject.tag == "Headshot" || headshots == false){
+//					print ("Nice bodyshot and/or miss, NOOB!");
+//					hit.transform.gameObject.SendMessage("Damage", damage, SendMessageOptions.DontRequireReciever);
+//					hit.collider.SendMessage("Damage", damage, SendMessageOptions.DontRequireReciever);
+//				}
 	if (hit.rigidbody !=null) {
 		hit.rigidbody.AddForceAtPosition(fwd * power, hit.point);
 }
@@ -160,14 +164,14 @@ function FullAutoFire () {
 			fwd.z += Random.Range(-accuracy, accuracy);
 			if (Physics.Raycast(transform.position, fwd, hit, BRange)){
 				Instantiate(bulletTex[Random.Range(0,3)], hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
-				if (hit.collider.tag == "Headshot" && headshots == true){
-					print ("Nice shot, mate.");
-					hit.transform.SendMessage("Damage", damage * headshotMulti, SendMessageOptions.DontRequireReciever);
-				}
-				if (!hit.collider.tag == "Headshot" || headshots == false){
-					print ("Nice bodyshot and/or miss, NOOB!");
-					hit.transform.SendMessage("Damage", damage, SendMessageOptions.DontRequireReciever);
-				}
+//				if (hit.transform.gameObject.tag == "Headshot" && headshots == true){
+//					print ("Nice shot, mate.");
+//					hit.transform.gameObject.SendMessage("Damage", damage * headshotMulti, SendMessageOptions.DontRequireReciever);
+//				}
+//				if (!hit.transform.gameObject.tag == "Headshot" || headshots == false){
+//					print ("Nice bodyshot and/or miss, NOOB!");
+//					hit.transform.gameObject.SendMessage("Damage", damage, SendMessageOptions.DontRequireReciever);
+//				}
 	if (hit.rigidbody !=null) {
 		hit.rigidbody.AddForceAtPosition(fwd * power, hit.point);
 }
