@@ -44,18 +44,18 @@
 -define:ENABLE_MONO
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
--define:UNITY_EDITOR_WIN
--r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
--r:"C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll"
--r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_EDITOR_OSX
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -i:UnityEditor
-"Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js"
-"Assets/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js"
-"Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js"
-"Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js"
-"Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js"
-"Assets/Standard Assets/Particles/Legacy Particles/TimedObjectDestructor.js"
-"Assets/Standard Assets/Scripts/Camera Scripts/MouseOrbit.js"
-"Assets/Standard Assets/Scripts/Camera Scripts/SmoothFollow.js"
-"Assets/Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js"
-"Assets/Standard Assets/Scripts/General Scripts/DragRigidbody.js"
+'Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js'
+'Assets/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js'
+'Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js'
+'Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js'
+'Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js'
+'Assets/Standard Assets/Particles/Legacy Particles/TimedObjectDestructor.js'
+'Assets/Standard Assets/Scripts/Camera Scripts/MouseOrbit.js'
+'Assets/Standard Assets/Scripts/Camera Scripts/SmoothFollow.js'
+'Assets/Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js'
+'Assets/Standard Assets/Scripts/General Scripts/DragRigidbody.js'
